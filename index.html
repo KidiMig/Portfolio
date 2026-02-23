@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Miguel — IT & Développement</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- HEADER / NAV -->
+  <header class="header">
+    <div class="container header__inner">
+      <div class="logo">Miguel <span>Référent IT</span></div>
+      <nav class="nav">
+        <a href="#about">À propos</a>
+        <a href="#skills">Compétences</a>
+        <a href="#projects">Projets</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero__inner">
+      <div class="hero__text">
+        <p class="hero__eyebrow">Disponible en freelance</p>
+        <h1 class="hero__title">Développeur<br /><em>& IT Santé</em></h1>
+        <p class="hero__desc">
+          Spécialisé dans les systèmes d'information de laboratoire et le développement d'outils métier sur mesure. Basé en Guyane française, disponible à distance.
+        </p>
+        <div class="hero__actions">
+          <a href="#projects" class="btn btn--primary">Voir mes projets</a>
+          <a href="#contact" class="btn btn--outline">Me contacter</a>
+        </div>
+      </div>
+      <div class="hero__visual">
+        <div class="avatar-placeholder">
+          <svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="60" cy="45" r="22" fill="currentColor" opacity="0.3"/>
+            <ellipse cx="60" cy="95" rx="35" ry="22" fill="currentColor" opacity="0.2"/>
+          </svg>
+          <span>Photo à venir</span>
+        </div>
+        <div class="hero__badge">
+          <span class="badge__num">5+</span>
+          <span class="badge__label">ans d'expérience</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero__scroll">
+      <span>Défiler</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section__label">À propos</div>
+      <div class="about__grid">
+        <div class="about__text">
+          <h2 class="section__title">Profil hybride<br /><em>dev & IT</em></h2>
+          <p>
+            Titulaire d'un Master en Ingénierie Informatique (SUPINFO), j'exerce en tant que Référent Informatique au CHC Cayenne — Laboratoire Polyvalent. Mon rôle : être l'interface entre les biologistes et l'IT, gérer les systèmes d'information de laboratoire (Hexalis, GLIMS) et développer des outils d'automatisation métier.
+          </p>
+          <p>
+            En parallèle, je propose mes compétences en freelance pour des missions de développement web et de conseil IT, notamment pour les structures de santé et PME.
+          </p>
+        </div>
+        <div class="about__stats">
+          <div class="stat">
+            <span class="stat__num">3</span>
+            <span class="stat__label">Outils métier développés</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">ISO<br/>15189</span>
+            <span class="stat__label">Conformité maintenue</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">100%</span>
+            <span class="stat__label">Remote possible</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section__label">Compétences</div>
+      <h2 class="section__title">Ce que<br /><em>je maîtrise</em></h2>
+      <div class="skills__grid">
+        <div class="skill-card">
+          <div class="skill-card__icon">⚙️</div>
+          <h3>Systèmes LIS</h3>
+          <p>Hexalis, GLIMS, MPL Middleware, HL7, interfaces équipements de laboratoire</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-card__icon">🐍</div>
+          <h3>Développement</h3>
+          <p>Python, Symfony, Vue.js, HTML/CSS/JS, développement d'outils d'automatisation</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-card__icon">🖥️</div>
+          <h3>IT Support</h3>
+          <p>Administration systèmes, réseau, gestion de parc, support utilisateur, DNS/DHCP</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-card__icon">🏥</div>
+          <h3>IT Santé</h3>
+          <p>SIH, conformité ISO 15189, interfaces biologiques, middleware médical</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-card__icon">🗄️</div>
+          <h3>Base de données</h3>
+          <p>MySQL, PostgreSQL, optimisation de requêtes, modélisation de données</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-card__icon">🚀</div>
+          <h3>Déploiement</h3>
+          <p>GitHub, gestion de versions, déploiement d'applications web, documentation technique</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section__label">Projets</div>
+      <h2 class="section__title">Réalisations<br /><em>concrètes</em></h2>
+      <div class="projects__grid">
+
+        <div class="project-card project-card--featured">
+          <div class="project-card__tag">Python · Automatisation</div>
+          <h3>Scanner QR Code HEXTANT</h3>
+          <p>
+            Développement d'un outil Python permettant l'enregistrement automatique des données patients dans le LIS HEXTANT via scan de QR code. Réduit significativement les erreurs de saisie manuelle et accélère l'enregistrement en laboratoire.
+          </p>
+          <ul class="project-card__highlights">
+            <li>Lecture QR code via douchette USB</li>
+            <li>Intégration directe avec HEXTANT</li>
+            <li>Déployé en production au CHC Cayenne</li>
+          </ul>
+          <div class="project-card__footer">
+            <span class="tag">Python</span>
+            <span class="tag">LIS</span>
+            <span class="tag">Automatisation</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card__tag">Python · Productivité</div>
+          <h3>Gestionnaire PDF Hexalis</h3>
+          <p>
+            Application permettant aux techniciens de laboratoire de télécharger leurs fichiers PDF depuis Hexalis, en lot ou individuellement, sans manipulation manuelle complexe.
+          </p>
+          <ul class="project-card__highlights">
+            <li>Téléchargement en lot ou unitaire</li>
+            <li>Interface simple pour non-techniciens</li>
+            <li>Gain de temps significatif au quotidien</li>
+          </ul>
+          <div class="project-card__footer">
+            <span class="tag">Python</span>
+            <span class="tag">Hexalis</span>
+            <span class="tag">PDF</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card__tag">Symfony · Vue.js · E-commerce</div>
+          <h3>Optimisation Sakabay</h3>
+          <p>
+            Projet de Master — optimisation des performances d'une marketplace e-commerce en Guyane française. Travail sur la base de données, le cache et le design mobile-first malgré les contraintes réseau locales.
+          </p>
+          <ul class="project-card__highlights">
+            <li>Optimisation base de données et cache</li>
+            <li>Approche mobile-first</li>
+            <li>Amélioration du temps de chargement</li>
+          </ul>
+          <div class="project-card__footer">
+            <span class="tag">Symfony</span>
+            <span class="tag">Vue.js</span>
+            <span class="tag">Performance</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="contact__inner">
+        <div class="section__label">Contact</div>
+        <h2 class="section__title">Travaillons<br /><em>ensemble</em></h2>
+        <p class="contact__desc">
+          Disponible pour des missions freelance en développement web, automatisation ou conseil IT santé. Remote ou présentiel en Guyane / Antilles.
+        </p>
+        <div class="contact__links">
+          <a href="mailto:votre@email.com" class="btn btn--primary">votre@email.com</a>
+          <a href="https://www.malt.fr/profile/votreprofil" target="_blank" class="btn btn--outline">Profil Malt</a>
+          <a href="https://github.com/votregithub" target="_blank" class="btn btn--outline">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span>© 2025 Miguel — Référent IT & Développeur</span>
+      <span>Cayenne, Guyane française 🇬🇫</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
